@@ -1,0 +1,12 @@
+#ifndef _RC_V2_1_USB_PROTO_H_
+#define _RC_V2_1_USB_PROTO_H_
+
+typedef enum
+{
+  USBREQ_RCV21_LCD_COMMAND,
+  USBREQ_RCV21_SYS_RESET,
+  USBREQ_RCV21_SYS_HALT,
+  USBREQ_RCV21_SYS_RESUME,
+} usbreq_rcv21_t;
+
+#endif /* _RC_V2_1_USB_PROTO_H_ */
